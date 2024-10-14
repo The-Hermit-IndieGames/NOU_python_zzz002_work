@@ -1,0 +1,2 @@
+# NOU_python_zzz002_work
+空大113上Pythont程式設計期末小組專案
