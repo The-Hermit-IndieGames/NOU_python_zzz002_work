@@ -60,36 +60,30 @@ Label_id50 = customtkinter.CTkLabel(
 Label_id50.place(x=20, y=110)
 
 # Button_id3
-Button_id3 = customtkinter.CTkButton(
+Button_id3 = customtkinter.CTkOptionMenu(
     master=window,
-    text="下拉式選單",
+    values=["選項1", "選項2", "選項3"],
     font=("undefined", 14),
     text_color="#000000",
     hover=True,
-    hover_color="#949494",
     height=50,
     width=95,
-    border_width=2,
     corner_radius=6,
-    border_color="#000000",
     bg_color="#FFFFFF",
     fg_color="#F0F0F0",
 )
 Button_id3.place(x=20, y=120)
 
 # Button_id4
-Button_id4 = customtkinter.CTkButton(
+Button_id4 = customtkinter.CTkOptionMenu(
     master=window,
-    text="下拉式選單",
+    values=["選項1", "選項2", "選項3"],
     font=("undefined", 14),
     text_color="#000000",
     hover=True,
-    hover_color="#949494",
     height=50,
     width=95,
-    border_width=2,
     corner_radius=6,
-    border_color="#000000",
     bg_color="#FFFFFF",
     fg_color="#F0F0F0",
 )
